@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WatherApp | yousri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Lato:ital,wght@1,900&family=Open+Sans:wght@300;400&family=Work+Sans:wght@100;200;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="app">
+        <div class="entry">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="ENTRE YOUR LOCATION">
+            <button href="" id="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="stat">
+            <img src="images/clear.png" class="imgstat" alt="">
+            <h1 class="degstat">21</h1>
+            <h2 class="watherstat">overcast cloud</h2>
+        </div>
+        <div class="desc">
+            <div class="prop">
+                <i class="fa-solid fa-water"></i>
+                <div class="both">
+                    <h2 class="hum-per">60%</h2>
+                    <h3>Humidity</h3>
+                </div>
+            </div>
+            <div class="prop">
+                <i class="fa-solid fa-wind"></i>
+                <div class="both">
+                    <h2 class="hum-per">10Km/h</h2>
+                    <h3>Wind Speed</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
